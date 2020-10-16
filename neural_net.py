@@ -36,7 +36,7 @@ class NeuralNetwork():
 					self.weights[index] += adjust_weight
 
 
-	# Calculate the sigmoid (our activation function)
+	# Calculate the sigmoid (the activation function)
 	def __sigmoid(self, sum_of_weighted_inputs):
 		return 1 / (1 + math.exp(-sum_of_weighted_inputs))
 
